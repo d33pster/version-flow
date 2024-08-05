@@ -5,6 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "version-flow"
 version = "0.1"
+description = "A library that helps create update methodologies for your script/project."
+dependencies = ['requests', 'tqdm']
 
 [project.urls]
 GitHub = "https://github.com/d33pster/version-flow"
